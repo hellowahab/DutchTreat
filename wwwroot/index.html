@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Index File</title>
-    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />    
 </head>
 <body>
     <h1>Index File</h1>
@@ -16,11 +16,11 @@
             <li>Title: My Image</li>
             <li>Description: Self-Portrait</li>
         </ul>
-        <button>Buy</button>
-    </div>   
-    
+        <button id="buyButton">Buy</button>
+    </div>
+
     <div>
-        <form id="theForm" >
+        <form id="theForm">
             <label>Name:</label>
             <br />
             <input />
@@ -40,6 +40,28 @@
             <input type="submit" value="Send Message" />
         </form>
     </div>
+    <div>
+        <div id="loginToggle">Login</div>
+        <form class="popup-form">
+            <div>
+                <label>Username</label>
+                <input />
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" />
+            </div>
+            <div>
+                <input type="checkbox" />
+                <label>Remember Me?</label>
+            </div>
+            <div>
+                <input type="submit" value="Login" />                
+            </div>
+        </form>
+    </div>
 
-</body>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="js/index.js"></script>
+</body>    
 </html>
